@@ -103,7 +103,7 @@ body {
 }
 
 .middle-columns-text {
-  align-self: stretch;
+  align-self: stretch;/* 中央寄せはcenterです */
 }
 
 .middle-columns-upper {
