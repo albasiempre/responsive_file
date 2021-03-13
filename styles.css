@@ -25,8 +25,6 @@ body {
 * flexboxを使用して、widthを%で書く
 */
 
-
-
 /*
 * main top
 */
@@ -35,7 +33,6 @@ body {
   /* background-image: url(../shared/yaoqi-lai-19429.jpg); */
   color: #ffffff;
   text-align: center;
-  position: relative;
 }
 
 .hero-message {
@@ -55,7 +52,7 @@ body {
   width:auto;
   text-align: center;
   margin: 30px 0;
-  
+
 }
 
 .top-main h1 {
@@ -95,16 +92,19 @@ body {
 }
 
 .middle-columns {
-  max-height: 473px;
-  margin-left: 10px;
   text-align: center;
-  font-size: 20px;
   display: grid;
 }
 
 .middle-columns-text {
-  align-self: stretch;/* 中央寄せはcenterです */
+align-items: center;/* 中央寄せはcenterです */
 }
+
+.middle-columns-title {
+ margin: 0 0 20px 20px;
+
+}
+
 
 .middle-columns-upper {
 display: grid;
@@ -112,9 +112,18 @@ grid-template-columns: 1fr 1fr 1fr;
 
 }
 
+.middle-columns-img-upper {
+  width: 100%;
+
+}
+
 .middle-columns-lower {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle-columns-img-lower {
+  width: 100%;
 }
 
 .middle-columns {
@@ -172,12 +181,27 @@ font-size: 18px;
   font-size: 28px;
   padding: 30px 0 40px 0;
   color: rgb(133, 152, 206);
+}
 
+.bottom-image {
+  width:100%;
+}
 
+.bottom-image-left {
+ margin: 0 0 0 80px;
+}
+
+.bottom-image-right {
+ margin: 0 80px 0 0;
 }
 
 .bottom-columns {
   font-size: 18px;
+  margin: 0 40px 0 40px;
+}
+
+.bottom-columns-text {
+  margin: 20px 0 0 0;
 }
 
 .bottom-columns-upper {
@@ -207,7 +231,6 @@ font-size: 18px;
 */
 
 .footer {
-  height: 400px;
   background-color: #000000;
   color: #ffffff;
 }
