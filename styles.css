@@ -72,7 +72,7 @@ body {
   font-family: 'Encode Sans Expanded', sans-serif;
   font-family: 'Lora', serif;
   text-align: center;
-  margin: 50px 350px;
+  margin: 50px 350px; 
   
 }
 
@@ -189,21 +189,9 @@ font-size: 18px;
   margin: 0 80px 0 80px;
 }
 
-.bottom-image-left {
- margin: 0 0 0 80px;
-}
 
-.bottom-image-right {
- margin: 0 80px 0 0;
-}
-
-.bottom-columns {
-  font-size: 18px;
-
-}
-
-.bottom-columns-text {
-  margin: 20px 0 0 0;
+.bottom-image-lower {
+  width: 100%;
 }
 
 .bottom-columns-upper {
@@ -212,11 +200,24 @@ font-size: 18px;
  margin: 0 80px 0 80px;
 }
 
-.bottom-columns-lower {
- display: grid;
- grid-template-columns: 1fr 1fr;
- margin: 0 80px 0 80px;
+.bottom-columns {
+  font-size: 18px;
 }
+
+.bottom-image-upper {
+  width: 100%;
+}
+
+.bottom-columns-text {
+  margin: 20px 0 0 0;
+}
+
+.bottom-columns-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 80px 0 80px;
+}
+
 .bottom-section .slim {
   padding: 50px 50px 30px 80px;
 }
@@ -248,3 +249,13 @@ font-size: 18px;
   border-bottom: 1px solid;
 }
 
+@media (min-width:768px) {
+.top-main h1 {
+  font-size: 20px;
+  font-weight: 100;
+}
+}
+
+@media (min-width:320px) {
+
+}
