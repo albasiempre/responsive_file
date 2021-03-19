@@ -105,7 +105,7 @@ align-items: center;/* 中央寄せはcenterです */
 
 }
 
-
+/* クエリの外に書く記述は、全端末画面で共通のスタイルのみ。この設定はデスクトップ端末特有の設定です */
 .middle-columns-upper {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -267,6 +267,7 @@ font-size: 18px;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+/* モバイルでの表示を縦並びにする記述をするのであれば、デスクトップのブレークポイントではどうするかを指定する必要があります */
 .middle-columns-upper {
   display: grid;
   grid-template-columns: none;
