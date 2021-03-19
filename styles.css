@@ -250,6 +250,79 @@ font-size: 18px;
 }
 
 @media (min-width:320px) {
+.top-main h2 {
+  font-size: 30px;
+}
+
+.top-main h1 {
+  font-size: 24px;
+}
+
+.top-main p {
+  margin: 20px 40px;
+  font-size: 14px;
+}
+
+.middle-columns-text {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.middle-columns-upper {
+  display: grid;
+  grid-template-columns: none;
+  }
+
+
+.middle-columns-lower {
+  display: grid;
+  grid-template-columns: none;
+}
+
+.middle-columns h3 {
+  font-size: 18px;
+  justify-content: space-around;
+
+}
+
+.middle-columns h2 {
+font-size: 20px;
+}
+
+.middle-columns p {
+font-size: 16px;
+margin: 10px 0 30px 0;
+}
+
+.middle-label {
+  padding: 20px 0;
+}
+
+.middle-label h2 {
+ font-size: 18px;
+}
+
+.middle-label h1 {
+ font-size: 24px;
+}
+
+.bottom-columns-upper {
+  display: grid;
+  grid-template-columns: none;
+ }
+
+.bottom-columns-lower {
+  display: grid;
+  grid-template-columns: none;
+}
+
+
+.footer {
+  padding: 40px 20px;
+  font-size: 16px
+}
+.footer-message {
+  font-size: 24px;
+}
 
 
 }
@@ -262,7 +335,7 @@ font-size: 18px;
   margin: 50px 100px;
 }
 .middle-columns-text h3  {
- font-size: 18px;
+  font-size: 18px;
 }
 
 .middle-columns-text h2 {
@@ -270,7 +343,7 @@ font-size: 18px;
 }
 
 .middle-columns-text p {
- font-size: 14px;
+  font-size: 14px;
 }
 
 .middle-label h2 {
@@ -297,10 +370,10 @@ font-size: 18px;
 }
 
 .footer {
- 
+
 }
 .footer-message {
- font-size: 40px;
+  font-size: 40px;
 }
 
 }
